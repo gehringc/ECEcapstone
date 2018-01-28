@@ -31,7 +31,8 @@
 #define CoreRegisterR0Size 	2
 const PROGMEM unsigned char CoreRegisterR0Data[2]={0x00, 0x18};
 
-#define progDataAddr	1024
+
+#define progDataAddr	1024
 #define progDataSize		5120
 const PROGMEM unsigned char progDataData[5120]={
 0x00, 0x00, 0x00, 0x00, 0x01, 
@@ -1059,7 +1060,8 @@ const PROGMEM unsigned char progDataData[5120]={
 0x00, 0x00, 0x00, 0x00, 0x01, 
 0x00, 0x00, 0x00, 0x00, 0x01};
 
-#define regParamAddr 	0
+
+#define regParamAddr 	0
 #define regParamSize 	4096
 const PROGMEM unsigned char regParamData[4096]={
 0x00, 0x00, 0x00, 0x00, 
@@ -2087,15 +2089,18 @@ const PROGMEM unsigned char regParamData[4096]={
 0x00, 0x00, 0x00, 0x00, 
 0x00, 0x00, 0x00, 0x00};
 
-#define HWConFigurationAddr 	2076
+
+#define HWConFigurationAddr 	2076
 #define HWConFigurationSize 	24
 const PROGMEM unsigned char HWConFigurationData[24]={0x00, 0x18, 0x08, 0x00, 0x00, 0x00, 0x44, 0x44, 0x44, 0x44, 0x44, 0x44, 0x00, 0x00, 0x00, 0x00, 0x80, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x01};
 
-#define CoreRegisterR4Addr 	2076
+
+#define CoreRegisterR4Addr 	2076
 #define CoreRegisterR4Size 	2
 const PROGMEM unsigned char CoreRegisterR4Data[2]={0x00, 0x1C};
 
-#define MasterVolume	266
+
+#define MasterVolume	266
 #define SawtoothC	1
 #define SinC		3
 #define SquareC		6
