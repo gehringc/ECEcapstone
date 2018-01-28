@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- *
+ * This software is distributed in the hope that it will be useful,
+ * but is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+ * CONDITIONS OF ANY KIND, without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
+ *
+ * This software may only be used to program products purchased from
+ * Analog Devices for incorporation by you into audio products that
+ * are intended for resale to audio product end users. This software
+ * may not be distributed whole or in any part to third parties.
+ *
+ * Copyright © 2015 Analog Devices, Inc. All rights reserved.
+ */
+-->
+<!--NetList XML file-->
+<NetList>
+    <IC ID="1" name="DSPSigma100">
+        <Schematic>
+            <Algorithm name="ICSigma100In1" friendlyname="170x\140x input" cell="Input1 ">
+                <Link pin="O_C0_A0_P1_out" dir="out" link="Link1" />
+                <Link pin="O_C0_A0_P2_out" dir="out" link="Link0" />
+                <Link pin="O_C0_A0_P3_out" dir="out" link="Link41" />
+            </Algorithm>
+            <Algorithm name="SawAlg1" friendlyname="Sawtooth Wave" cell="SawtoothC ">
+                <Link pin="O_C45_A0_P1_out" dir="out" link="Link2" />
+            </Algorithm>
+            <Algorithm name="sin_lookupAlg19401" friendlyname="Tone Synthesis (lookup/sine)" cell="SinC ">
+                <Link pin="O_C47_A0_P1_out" dir="out" link="Link10" />
+            </Algorithm>
+            <Algorithm name="SquareAlg1" friendlyname="Square Wave" cell="SquareC ">
+                <Link pin="O_C51_A0_P1_out" dir="out" link="Link18" />
+            </Algorithm>
+            <Algorithm name="TriAlg1" friendlyname="Triangle Wave" cell="TriangleC ">
+                <Link pin="O_C58_A0_P1_out" dir="out" link="Link26" />
+            </Algorithm>
+            <Algorithm name="SawAlg2" friendlyname="Sawtooth Wave" cell="SawtoothD ">
+                <Link pin="O_C68_A0_P1_out" dir="out" link="Link3" />
+            </Algorithm>
+            <Algorithm name="SawAlg3" friendlyname="Sawtooth Wave" cell="SawtoothE ">
+                <Link pin="O_C73_A0_P1_out" dir="out" link="Link4" />
+            </Algorithm>
+            <Algorithm name="SawAlg4" friendlyname="Sawtooth Wave" cell="SawtoothF ">
+                <Link pin="O_C78_A0_P1_out" dir="out" link="Link5" />
+            </Algorithm>
+            <Algorithm name="SawAlg5" friendlyname="Sawtooth Wave" cell="SawtoothA ">
+                <Link pin="O_C80_A0_P1_out" dir="out" link="Link7" />
+            </Algorithm>
+            <Algorithm name="SawAlg6" friendlyname="Sawtooth Wave" cell="SawtoothG ">
+                <Link pin="O_C88_A0_P1_out" dir="out" link="Link6" />
+            </Algorithm>
+            <Algorithm name="SawAlg7" friendlyname="Sawtooth Wave" cell="SawtoothC5 ">
+                <Link pin="O_C91_A0_P1_out" dir="out" link="Link9" />
+            </Algorithm>
+            <Algorithm name="SawAlg8" friendlyname="Sawtooth Wave" cell="SawtoothB ">
+                <Link pin="O_C94_A0_P1_out" dir="out" link="Link8" />
+            </Algorithm>
+            <Algorithm name="sin_lookupAlg19402" friendlyname="Tone Synthesis (lookup/sine)" cell="SinD ">
+                <Link pin="O_C18_A0_P1_out" dir="out" link="Link11" />
+            </Algorithm>
+            <Algorithm name="sin_lookupAlg19403" friendlyname="Tone Synthesis (lookup/sine)" cell="SinE ">
+                <Link pin="O_C20_A0_P1_out" dir="out" link="Link12" />
+            </Algorithm>
+            <Algorithm name="sin_lookupAlg19404" friendlyname="Tone Synthesis (lookup/sine)" cell="SinF ">
+                <Link pin="O_C22_A0_P1_out" dir="out" link="Link13" />
+            </Algorithm>
+            <Algorithm name="sin_lookupAlg19405" friendlyname="Tone Synthesis (lookup/sine)" cell="SinG ">
+                <Link pin="O_C25_A0_P1_out" dir="out" link="Link14" />
+            </Algorithm>
+            <Algorithm name="sin_lookupAlg19406" friendlyname="Tone Synthesis (lookup/sine)" cell="SinA ">
+                <Link pin="O_C27_A0_P1_out" dir="out" link="Link15" />
+            </Algorithm>
+            <Algorithm name="sin_lookupAlg19407" friendlyname="Tone Synthesis (lookup/sine)" cell="SinB ">
+                <Link pin="O_C30_A0_P1_out" dir="out" link="Link16" />
+            </Algorithm>
+            <Algorithm name="sin_lookupAlg19408" friendlyname="Tone Synthesis (lookup/sine)" cell="SinC5 ">
+                <Link pin="O_C33_A0_P1_out" dir="out" link="Link17" />
+            </Algorithm>
+            <Algorithm name="SquareAlg2" friendlyname="Square Wave" cell="SquareD ">
+                <Link pin="O_C170_A0_P1_out" dir="out" link="Link19" />
+            </Algorithm>
+            <Algorithm name="SquareAlg3" friendlyname="Square Wave" cell="SquareE ">
+                <Link pin="O_C172_A0_P1_out" dir="out" link="Link20" />
+            </Algorithm>
+            <Algorithm name="SquareAlg4" friendlyname="Square Wave" cell="SquareF ">
+                <Link pin="O_C174_A0_P1_out" dir="out" link="Link21" />
+            </Algorithm>
+            <Algorithm name="SquareAlg5" friendlyname="Square Wave" cell="SquareG ">
+                <Link pin="O_C179_A0_P1_out" dir="out" link="Link22" />
+            </Algorithm>
+            <Algorithm name="SquareAlg6" friendlyname="Square Wave" cell="SquareA ">
+                <Link pin="O_C181_A0_P1_out" dir="out" link="Link23" />
+            </Algorithm>
+            <Algorithm name="SquareAlg7" friendlyname="Square Wave" cell="SquareB ">
+                <Link pin="O_C183_A0_P1_out" dir="out" link="Link24" />
+            </Algorithm>
+            <Algorithm name="SquareAlg8" friendlyname="Square Wave" cell="SquareC5 ">
+                <Link pin="O_C186_A0_P1_out" dir="out" link="Link25" />
+            </Algorithm>
+            <Algorithm name="TriAlg2" friendlyname="Triangle Wave" cell="TriangleD ">
+                <Link pin="O_C219_A0_P1_out" dir="out" link="Link27" />
+            </Algorithm>
+            <Algorithm name="TriAlg3" friendlyname="Triangle Wave" cell="TriangleE ">
+                <Link pin="O_C221_A0_P1_out" dir="out" link="Link33" />
+            </Algorithm>
+            <Algorithm name="TriAlg4" friendlyname="Triangle Wave" cell="TriangleF ">
+                <Link pin="O_C223_A0_P1_out" dir="out" link="Link32" />
+            </Algorithm>
+            <Algorithm name="TriAlg5" friendlyname="Triangle Wave" cell="TriangleG ">
+                <Link pin="O_C225_A0_P1_out" dir="out" link="Link31" />
+            </Algorithm>
+            <Algorithm name="TriAlg6" friendlyname="Triangle Wave" cell="TriangleA ">
+                <Link pin="O_C227_A0_P1_out" dir="out" link="Link30" />
+            </Algorithm>
+            <Algorithm name="TriAlg7" friendlyname="Triangle Wave" cell="TriangleB ">
+                <Link pin="O_C229_A0_P1_out" dir="out" link="Link29" />
+            </Algorithm>
+            <Algorithm name="TriAlg8" friendlyname="Triangle Wave" cell="TriangleC5 ">
+                <Link pin="O_C231_A0_P1_out" dir="out" link="Link28" />
+            </Algorithm>
+            <Algorithm name="Gain1940AlgNS4" friendlyname="Gain (no slew)" cell="Gain2 ">
+                <Link pin="I_C84_A0_P1_in" dir="in" link="Link0" />
+                <Link pin="O_C84_A0_P2_out" dir="out" link="Link44" />
+            </Algorithm>
+            <Algorithm name="Gain1940AlgNS3" friendlyname="Gain (no slew)" cell="Gain1 ">
+                <Link pin="I_C81_A0_P1_in" dir="in" link="Link1" />
+                <Link pin="O_C81_A0_P2_out" dir="out" link="Link46" />
+            </Algorithm>
+            <Algorithm name="EightChanXMixer1940Alg1" friendlyname="8 Channel X Mixer" cell="SawMixer ">
+                <Link pin="I_C105_A0_P1_in" dir="in" link="Link2" />
+                <Link pin="I_C105_A0_P2_in" dir="in" link="Link3" />
+                <Link pin="I_C105_A0_P3_in" dir="in" link="Link4" />
+                <Link pin="I_C105_A0_P4_in" dir="in" link="Link5" />
+                <Link pin="I_C105_A0_P5_in" dir="in" link="Link6" />
+                <Link pin="I_C105_A0_P6_in" dir="in" link="Link7" />
+                <Link pin="I_C105_A0_P7_in" dir="in" link="Link8" />
+                <Link pin="I_C105_A0_P8_in" dir="in" link="Link9" />
+                <Link pin="O_C105_A0_P9_out" dir="out" link="Link37" />
+            </Algorithm>
+            <Algorithm name="EightChanXMixer1940Alg2" friendlyname="8 Channel X Mixer" cell="SinMixer ">
+                <Link pin="I_C37_A0_P1_in" dir="in" link="Link10" />
+                <Link pin="I_C37_A0_P2_in" dir="in" link="Link11" />
+                <Link pin="I_C37_A0_P3_in" dir="in" link="Link12" />
+                <Link pin="I_C37_A0_P4_in" dir="in" link="Link13" />
+                <Link pin="I_C37_A0_P5_in" dir="in" link="Link14" />
+                <Link pin="I_C37_A0_P6_in" dir="in" link="Link15" />
+                <Link pin="I_C37_A0_P7_in" dir="in" link="Link16" />
+                <Link pin="I_C37_A0_P8_in" dir="in" link="Link17" />
+                <Link pin="O_C37_A0_P9_out" dir="out" link="Link36" />
+            </Algorithm>
+            <Algorithm name="EightChanXMixer1940Alg3" friendlyname="8 Channel X Mixer" cell="SquareMixer ">
+                <Link pin="I_C189_A0_P1_in" dir="in" link="Link18" />
+                <Link pin="I_C189_A0_P2_in" dir="in" link="Link19" />
+                <Link pin="I_C189_A0_P3_in" dir="in" link="Link20" />
+                <Link pin="I_C189_A0_P4_in" dir="in" link="Link21" />
+                <Link pin="I_C189_A0_P5_in" dir="in" link="Link22" />
+                <Link pin="I_C189_A0_P6_in" dir="in" link="Link23" />
+                <Link pin="I_C189_A0_P7_in" dir="in" link="Link24" />
+                <Link pin="I_C189_A0_P8_in" dir="in" link="Link25" />
+                <Link pin="O_C189_A0_P9_out" dir="out" link="Link35" />
+            </Algorithm>
+            <Algorithm name="EightChanXMixer1940Alg4" friendlyname="8 Channel X Mixer" cell="TriMixer ">
+                <Link pin="I_C233_A0_P1_in" dir="in" link="Link26" />
+                <Link pin="I_C233_A0_P2_in" dir="in" link="Link27" />
+                <Link pin="I_C233_A0_P3_in" dir="in" link="Link33" />
+                <Link pin="I_C233_A0_P4_in" dir="in" link="Link32" />
+                <Link pin="I_C233_A0_P5_in" dir="in" link="Link31" />
+                <Link pin="I_C233_A0_P6_in" dir="in" link="Link30" />
+                <Link pin="I_C233_A0_P7_in" dir="in" link="Link29" />
+                <Link pin="I_C233_A0_P8_in" dir="in" link="Link28" />
+                <Link pin="O_C233_A0_P9_out" dir="out" link="Link34" />
+            </Algorithm>
+            <Algorithm name="Gain1940AlgNS5" friendlyname="Gain (no slew)" cell="Gain3 ">
+                <Link pin="I_C207_A0_P1_in" dir="in" link="Link41" />
+                <Link pin="O_C207_A0_P2_out" dir="out" link="Link45" />
+            </Algorithm>
+            <Algorithm name="stereoDemux1940ns1" friendlyname="Stereo" cell="LineSelect ">
+                <Link pin="I_C154_A0_P1_in" dir="in" link="Link44" />
+                <Link pin="I_C154_A0_P2_in" dir="in" link="Link45" />
+                <Link pin="O_C154_A0_P3_out" dir="out" link="Link47" />
+                <Link pin="O_C154_A0_P4_out" dir="out" link="Link48" />
+                <Link pin="O_C154_A0_P5_out" dir="out" link="Link49" />
+                <Link pin="O_C154_A0_P6_out" dir="out" link="Link50" />
+            </Algorithm>
+            <Algorithm name="NxNMixer1940Alg1" friendlyname="NxM Ctrl Mixer" cell="NxM Mixer1 ">
+                <Link pin="I_C290_A0_P2_in" dir="in" link="Link37" />
+                <Link pin="I_C290_A0_P3_in" dir="in" link="Link36" />
+                <Link pin="I_C290_A0_P4_in" dir="in" link="Link35" />
+                <Link pin="I_C290_A0_P5_in" dir="in" link="Link34" />
+                <Link pin="I_C290_A0_P6_in" dir="in" link="Link47" />
+                <Link pin="I_C290_A0_P7_in" dir="in" link="Link48" />
+                <Link pin="I_C290_A0_P8_in" dir="in" link="Link46" />
+                <Link pin="O_C290_A0_P1_out" dir="out" link="Link38" />
+            </Algorithm>
+            <Algorithm name="FistOrderSingle1" friendlyname="1st order filter" cell="Gen1stOrder1 ">
+                <Link pin="I_C15_A0_P1_in" dir="in" link="Link38" />
+                <Link pin="O_C15_A0_P2_out" dir="out" link="Link53" />
+            </Algorithm>
+            <Algorithm name="Chorus19401" friendlyname="Chorus" cell="V Chor1 ">
+                <Link pin="I_C28_A0_P1_in" dir="in" link="Link53" />
+                <Link pin="O_C28_A0_P2_out" dir="out" link="Link39" />
+                <Link pin="O_C28_A0_P3_out" dir="out" link="Link40" />
+            </Algorithm>
+            <Algorithm name="NxNMixer1940Alg3" friendlyname="NxM Ctrl Mixer" cell="NxM Mixer1_2 ">
+                <Link pin="I_C112_A0_P2_in" dir="in" link="Link39" />
+                <Link pin="I_C112_A0_P3_in" dir="in" link="Link40" />
+                <Link pin="I_C112_A0_P4_in" dir="in" link="Link53" />
+                <Link pin="I_C112_A0_P6_in" dir="in" link="Link53" />
+                <Link pin="I_C112_A0_P7_in" dir="in" link="Link49" />
+                <Link pin="I_C112_A0_P8_in" dir="in" link="Link50" />
+                <Link pin="O_C112_A0_P1_out" dir="out" link="Link42" />
+                <Link pin="O_C112_A0_P5_out" dir="out" link="Link43" />
+            </Algorithm>
+            <Algorithm name="Gain1940AlgNS1" friendlyname="Gain (no slew)" cell="MasterVolume ">
+                <Link pin="I_C52_A0_P1_in" dir="in" link="Link42" />
+                <Link pin="O_C52_A0_P2_out" dir="out" link="Link52" />
+            </Algorithm>
+            <Algorithm name="Gain1940AlgNS2" friendlyname="Gain (no slew)" cell="MasterVolume ">
+                <Link pin="I_C52_A1_P1_in" dir="in" link="Link43" />
+                <Link pin="O_C52_A1_P2_out" dir="out" link="Link51" />
+            </Algorithm>
+            <Algorithm name="ICSigma100Out1" friendlyname="170x\140x output" cell="Output1 ">
+                <Link pin="I_C11_A0_P1_in" dir="in" link="Link52" />
+            </Algorithm>
+            <Algorithm name="ICSigma100Out3" friendlyname="170x\140x output" cell="Output1_2 ">
+                <Link pin="I_C136_A0_P1_in" dir="in" link="Link52" />
+            </Algorithm>
+            <Algorithm name="ICSigma100Out2" friendlyname="170x\140x output" cell="Output2 ">
+                <Link pin="I_C13_A0_P1_in" dir="in" link="Link51" />
+            </Algorithm>
+            <Algorithm name="ICSigma100Out4" friendlyname="170x\140x output" cell="Output2_2 ">
+                <Link pin="I_C148_A0_P1_in" dir="in" link="Link51" />
+            </Algorithm>
+        </Schematic>
+    </IC>
+</NetList>
